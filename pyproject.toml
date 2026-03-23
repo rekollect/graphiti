@@ -25,6 +25,7 @@ Homepage = "https://help.getzep.com/graphiti/graphiti/overview"
 Repository = "https://github.com/getzep/graphiti"
 
 [project.optional-dependencies]
+ollama = ["httpx>=0.28.0"]
 anthropic = ["anthropic>=0.49.0"]
 groq = ["groq>=0.2.0"]
 google-genai = ["google-genai>=1.62.0"]
